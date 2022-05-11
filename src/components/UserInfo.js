@@ -7,13 +7,13 @@ export default function UserInfo(){
         <div className="main--user-info">
             <h1>Laura Smith</h1>
             <h4>Frontend Developer</h4>
-            <a><small>laurasmith.website</small></a>
+            <a href="#"><small>laurasmith.website</small></a>
             <div className="main--btns">
                 <button className="main--email_btn">
-                    <img src={mail}/>Email
+                    <img src={mail} alt="email"/>Email
                 </button>
                 <button className="main--social_btn">
-                    <img src={linkedin}/>LinkedIn
+                    <img src={linkedin} alt="linkedin"/>LinkedIn
                 </button>
             </div>
             <h3>About</h3>

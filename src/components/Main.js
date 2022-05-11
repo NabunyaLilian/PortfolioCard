@@ -5,7 +5,7 @@ import photo from "../images/profile-photo.png"
 export default function Main(){
     return(
         <main>
-            <img className ="main--photo" src={photo}/>
+            <img className ="main--photo" src={photo} alt="profile"/>
             <UserInfo />
         </main>
     )

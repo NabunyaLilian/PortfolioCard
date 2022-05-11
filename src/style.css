@@ -121,3 +121,7 @@ footer > a{
     margin-right: 24px;
     cursor: pointer;
 }
+
+a{
+    text-decoration: none;
+}
