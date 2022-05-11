@@ -1,4 +1,6 @@
 import React from "react"
+import mail from "../images/mail-icon.png"
+import linkedin from "../images/linkedin-icon.png"
 
 export default function UserInfo(){
     return(
@@ -8,10 +10,10 @@ export default function UserInfo(){
             <a><small>laurasmith.website</small></a>
             <div className="main--btns">
                 <button className="main--email_btn">
-                    <img src="../images/mail-icon.png"/>Email
+                    <img src={mail}/>Email
                 </button>
                 <button className="main--social_btn">
-                    <img src="../images/linkedin-icon.png"/>LinkedIn
+                    <img src={linkedin}/>LinkedIn
                 </button>
             </div>
             <h3>About</h3>
